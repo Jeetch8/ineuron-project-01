@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+}
+.container{
+    margin: 70px 150px 0 150px;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list{
+    display: flex;
+    list-style: none;
+    gap: 20%;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.list-item:first-child{
+    font-weight: 900;
+    position: relative;
+    font-size: 26px;
+    /* border-bottom: 3px solid black; */
+    /* border-bottom-width: thin; */
+}
+.list-item:first-child::after{
+    content:"";
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    padding-top: 10px;
+    bottom: -2px;
+    right: 17px;
+    border-bottom: 3px solid black;
+}
+
+.button-group{
+    display: flex;
+    align-items: center;
+    gap: 10%;
+}
+
+.button-group button{
+    background-color: transparent;
+    border: 2.5px solid black;
+    padding: 7px 25px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+img[alt^="person"]{
+    position: absolute;
+    left: 8vw;
+    height: 65vh;
+    bottom: 12vh;
+    z-index: 1000;
+}
+.square{
+    position: absolute;
+    z-index: 1;
+    left: 17vw;
+    bottom: 4.5vh;
+}
+.square::after{
+    height: 20px;
+    width: 10px;
+    content: url('./assets/start.png');
+    position: absolute;
+    top: 33vh;
+    background-size: 10px 10px;
+    right: -10vh;
+    transform: scale(0.7);
+}
+.star{
+    position: absolute;
+    right: 7vw;
+    top: 24vh;
+}
+.globe{
+    right: 40vw;
+    top: 19vh;
+    position: absolute;
+}
+.hero-heading{
+    font-size: 70px;
+}
+
+.button-email{
+    background-color: transparent;
+    color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 100px;
+    padding: 5px 40px;
+    margin-right: 20px;
+}
+.button-join{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+.hero-container-right{
+    right: 5vw;
+    padding-top: 220px;
+    position: absolute;
+    text-align: center;
+}
+.hero-description{
+    width: 600px;
+    padding-left: 100px;
+    line-height: 25px;
+    padding-top: 60px;
+    padding-bottom: 120px;
+    /* font-size: 1px; */
+    font-weight: 100;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.contact-heading{
+    font-size: 20px;
+}
+
+.icons{
+    display: flex;
+    gap: 3%;
+    padding-top: 30px;
+    justify-content: center;
+}
