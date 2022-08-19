@@ -93,6 +93,7 @@ img[alt^="person"]{
     font-size: 70px;
 }
 
+
 .button-email{
     background-color: transparent;
     color: black;
@@ -118,7 +119,7 @@ img[alt^="person"]{
 }
 .hero-description{
     width: 600px;
-    padding-left: 100px;
+    padding-left: 150px;
     line-height: 25px;
     padding-top: 60px;
     padding-bottom: 120px;
